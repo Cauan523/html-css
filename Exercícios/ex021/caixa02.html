@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+           
+        }
+        nav{
+            background-color: rgb(98, 98, 98);
+            padding: 3px;
+            box-shadow:  4px 5px 11px black;
+            border-radius: 5px 0px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            padding-right: 10px;
+            font-weight: bold;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(166, 166, 166);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre Barra</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam libero illum eligendi eos. Odit vero a ipsa iusto eveniet veniam, quibusdam cum repudiandae facilis fugit id eum totam quidem quasi.</p>
+                <aside>Artigo escrito por Fernando Pereira</aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por CauanSantos</p>
+    </footer>
+</body>
+</html>
