@@ -1,0 +1,20 @@
+div.di{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    display: inline-block;
+    background-color: lightslategray;
+    border-radius: 5px;
+}
+div#cor1{
+    background-image: url('imagens/pattern003.png');
+}
+div#cor2{
+    background-image: url('imagens/wallpaper001.jpg');
+}
+div#cor3{
+    background-image: url('imagens/pattern002.png');
+}
+body{
+    background-image: url('imagens/pattern004.png');
+}
