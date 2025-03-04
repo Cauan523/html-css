@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+            border: 3px solid rgb(134, 134, 134);
+        }
+        td{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+            vertical-align: top;
+        }
+        tr.colorido{
+            background-color: lightgray;
+            
+        }
+    </style>
+</head>
+<body>
+    <!--Hierarquia de tabelas simples:
+    Table = tabela
+	    table row = linha da tabela (tr)
+		    table header = cabeçalho de tabela (th)
+		    table data = dado de tabela (td)
+    -->
+    <h1>Minha tabela</h1>
+    <table> <!--Tabela-->
+        <tr> <!--Linha da tabela-->
+            <td>a1</td> <!--Dados da tabela-->
+            <td>b1</td>
+            <td>c1</td>
+        </tr>
+        <tr class="colorido">
+            <td>a2</td>
+            <td>b2</td>
+            <td>c2</td>
+        </tr>
+        <tr>
+            <td>a3</td>
+            <td>b3</td>
+            <td>c3</td>
+        </tr>
+        <tr class="colorido">
+            <td>a4</td>
+            <td>b4</td>
+            <td>c4</td>
+        </tr>
+    </table>
+</body>
+</html>
